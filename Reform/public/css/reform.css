@@ -1,0 +1,60 @@
+body{
+    margin:0;
+}
+#container{
+ min-width: 100%;
+ min-height: 100%;
+ margin: 0;
+}
+#locateMe{
+    position:absolute;
+    right: 310px;
+    bottom: 10px;
+    z-index: 501;
+    cursor: pointer;
+    width:40px;
+}
+#map{
+    min-height: 100%;
+}
+#legend{
+position: absolute;
+width: 300px;
+right:0;
+z-index: 500;
+ min-height: 100%;
+ background-color: rgba(255, 255, 255, 0.9);
+ margin: 0;
+ display:grid;
+ grid-template-rows: repeat(10,1fr);
+ font-size: 7pt;
+}
+#parking h1, #electricity h1, #water h1{
+    align-items: center;
+    text-align:left;
+    margin-left: 30px;
+}
+#logo{
+    position:absolute;
+    width: 182px;
+    bottom: 10px;
+    left: 34px;
+    
+}
+.indicator_border{
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    align-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px;
+    border: 1px solid rgb(220,220,220);
+}
+.indicator{
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+} 
