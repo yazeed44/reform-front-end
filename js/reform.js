@@ -79,7 +79,7 @@ function load_districts() {
             L.geoJson(JSON.parse(xhr.responseText), { style: areaStyle, onEachFeature: makeLabel }).addTo(mymap);
         }
     };
-    xhr.open("GET", "./districts", true);
+    xhr.open("GET", "api/", true);
     xhr.send();
 }
 
