@@ -29,17 +29,22 @@ z-index: 500;
  grid-template-rows: repeat(10,1fr);
  font-size: 7pt;
 }
-#parking h1, #electricity h1, #water h1{
+#district_name{
+    align-items: center;
+    text-align:center;
+}
+
+#fast_internet_index h1, #infrastructure_index h1, #hospitals_index h1, #pharmacies_index h1, #mosques_index h1, #schools_index h1, #population_density_index h1{
     align-items: center;
     text-align:left;
     margin-left: 30px;
 }
 #logo{
-    position:absolute;
-    width: 182px;
-    bottom: 10px;
-    left: 34px;
-    
+    display: block;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    align-content: center;
 }
 .indicator_border{
     width: 80%;
